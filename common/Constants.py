@@ -22,5 +22,6 @@ class HtmlTags:
 
 
 class Strings:
-    INCORRECT_LOGIN = 'Incorrect username or password.'
+    INCORRECT_LOGIN = 'Nieprawidłowa nazwa użytkownika lub błędne hasło.'
+    INCORRECT_LOGIN_EN = 'Incorrect username or password.'
     EMAIL_MISMATCH = 'Adres e-mail jest niezgodny.'
