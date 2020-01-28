@@ -1,0 +1,36 @@
+run_type: development
+
+default:
+  site:
+    url: https://www.spotify.com/pl/
+
+  users:
+    default:
+      username: user
+      password: test
+
+  logging:
+    log_level: INFO
+    console: False
+  browser_type: CHROME
+  incognito_mode: False
+
+# Used for local debugging
+development:
+  site:
+    url: https://www.spotify.com/pl/
+    username: user
+    password: test
+
+  logging:
+    log_level: DEBUG
+    console: True
+
+  users:
+    default:
+      username: user
+      password: test
+
+  browser_type: CHROME_HEADLESS
+  incognito_mode: True
+

@@ -1,0 +1,13 @@
+version: '3'
+services:
+
+  setup:
+    image: darektest:latest
+ 
+    volumes:
+      - ../../automation:/qatest
+
+    entrypoint: ["echo", "Do not go anywhere"]
+      
+      
+ 

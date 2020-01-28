@@ -1,0 +1,11 @@
+pyyaml
+faker
+pytest
+selenium
+pytest-html
+# scrapy
+# beautifulsoup4
+# requests
+pytest-dependency
+pytest-ordering
+# allure-pytest==2.8.6

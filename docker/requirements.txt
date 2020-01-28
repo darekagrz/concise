@@ -1,0 +1,8 @@
+pyyaml
+faker
+pytest
+selenium
+pytest-html
+scrapy
+beautifulsoup4
+requests
